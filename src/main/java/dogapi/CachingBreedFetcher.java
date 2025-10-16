@@ -22,7 +22,7 @@ public class CachingBreedFetcher implements BreedFetcher {
     }
 
     @Override
-    public List<String> getSubBreeds(String breed) {
+    public List<String> getSubBreeds(String breed) throws BreedNotFoundException {
         // Normalize the cache key so "Hound" and "hound" hit the same entry.
         String key = (breed == null) ? null : breed.toLowerCase(Locale.ROOT);
 
