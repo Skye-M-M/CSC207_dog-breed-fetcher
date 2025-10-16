@@ -7,7 +7,7 @@ This is worth 1/3 of your Module 2 mark, and must be submitted individually.
 
 This repository is a "template repository", so rather than forking it, you should create a new repository from it:
 
-- [ ] Click the "Use this template" button in the top-right corner of this repository's page on GitHub, and create
+- [x] Click the "Use this template" button in the top-right corner of this repository's page on GitHub, and create
   your own repository from this template.
 
 > You can learn more about template repositories in the [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
@@ -32,8 +32,8 @@ team begins the significant coding tasks for your project.
 
 ## Requirements
 As with the NumberTriangle assignment, you need to continue to demonstrate use of Issues and PRs.
-- [ ] your repo must contain at least one closed issue, one closed PR, and two commits
-- [ ] all provided tests must pass
+- [x] your repo must contain at least one closed issue, one closed PR, and two commits
+- [x] all provided tests must pass
 
 ---
 
@@ -71,7 +71,7 @@ Note: The example in the documentation doesn't show it, but if you specify a bre
 
 ### Task 1:
 
-- [ ] Complete the `DogApiBreedFetcher` class.
+- [x] Complete the `DogApiBreedFetcher` class.
 
 > This is probably the most involved part of the code, as
 > you need to read the API documentation, make the API call,
@@ -82,15 +82,15 @@ Note: The example in the documentation doesn't show it, but if you specify a bre
 
 ### Task 2:
 
-- [ ] Complete the `CachingBreedFetcher` class.
+- [x] Complete the `CachingBreedFetcher` class.
 
 ### Task 3:
 
-- [ ] Complete the `Main` class.
+- [x] Complete the `Main` class.
 
 ### Task 4:
 
-- [ ] Originally, the `BreedFetcher.BreedNotFoundException` exception was designed as a subclass of `RuntimeException`.
+- [x] Originally, the `BreedFetcher.BreedNotFoundException` exception was designed as a subclass of `RuntimeException`.
   Update the code so that this exception is a **checked exception** and modify any other code as needed so that the code
   is able to compile and run.
 
